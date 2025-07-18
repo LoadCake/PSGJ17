@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://rk7q58xr2cdj"]
+
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="1_6eo5e"]
+
+[node name="Stage" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+modulate = Color(0.31025, 0.51, 0.255, 1)
+position = Vector2(384, 216)
+scale = Vector2(14.520001, 8.800002)
+texture = ExtResource("1_6eo5e")
+
+[node name="Middle" type="Marker2D" parent="."]
+position = Vector2(384, 216)
+
+[node name="Cauldron" type="Sprite2D" parent="."]
+position = Vector2(384, 216)
+texture = ExtResource("1_6eo5e")
+
+[node name="WorkStation1" type="Sprite2D" parent="."]
+modulate = Color(1, 0.87850004, 0.19, 1)
+position = Vector2(280, 144)
+texture = ExtResource("1_6eo5e")
+
+[node name="WorkStation2" type="Sprite2D" parent="."]
+modulate = Color(1, 0.87850004, 0.19, 1)
+position = Vector2(488, 144)
+texture = ExtResource("1_6eo5e")
+
+[node name="WorkStation3" type="Sprite2D" parent="."]
+modulate = Color(1, 0.87850004, 0.19, 1)
+position = Vector2(384, 319)
+texture = ExtResource("1_6eo5e")
+
+[node name="Tool1" type="Sprite2D" parent="."]
+modulate = Color(1, 0.33999997, 0.33999997, 1)
+position = Vector2(247, 269)
+texture = ExtResource("1_6eo5e")
+
+[node name="Tool2" type="Sprite2D" parent="."]
+modulate = Color(1, 0.33999997, 0.33999997, 1)
+position = Vector2(385, 61)
+texture = ExtResource("1_6eo5e")
+
+[node name="Tool3" type="Sprite2D" parent="."]
+modulate = Color(1, 0.33999997, 0.33999997, 1)
+position = Vector2(518, 274)
+texture = ExtResource("1_6eo5e")
