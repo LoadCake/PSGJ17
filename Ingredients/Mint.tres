@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://lyi1psc545w1"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_a2jxw"]
+
+[resource]
+script = ExtResource("1_a2jxw")
+name = "Mint"
+color = Color(0.023767253, 0.6319416, 0.56209314, 1)
+effect = 2
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://scs0c276dulu"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_dt8f7"]
+
+[resource]
+script = ExtResource("1_dt8f7")
+name = "Clay"
+color = Color(0.42, 0.38556, 0.2478, 1)
+effect = 11
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"

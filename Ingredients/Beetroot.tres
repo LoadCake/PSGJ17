@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://bycstf6cfaam1"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_i8igd"]
+
+[resource]
+script = ExtResource("1_i8igd")
+name = "Beetroot"
+color = Color(0.59032845, 0.009824978, 0.011477403, 1)
+effect = 1
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"

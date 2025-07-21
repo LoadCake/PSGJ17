@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://bqhrt3akcf1ax"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_dla7c"]
+
+[resource]
+script = ExtResource("1_dla7c")
+name = "Nettle"
+color = Color(0.06569998, 0.73, 0.07677162, 1)
+effect = 3
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"

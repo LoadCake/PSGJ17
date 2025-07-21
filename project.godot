@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="PSJ17"
+run/main_scene="uid://5dlrqhr44mct"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Stage="*res://Stage.tscn"
 
 [display]
 

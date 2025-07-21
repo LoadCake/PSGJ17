@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Tool" load_steps=2 format=3 uid="uid://p3owy7el6ue4"]
+
+[ext_resource type="Script" uid="uid://bcxdmctbfqe0d" path="res://tool.gd" id="1_huytb"]
+
+[resource]
+script = ExtResource("1_huytb")
+name = "Flail"
+metadata/_custom_type_script = "uid://bcxdmctbfqe0d"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://50ij147qw06v"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_qxq84"]
+
+[resource]
+script = ExtResource("1_qxq84")
+name = "Saltpeter"
+color = Color(0.33841312, 0.3211655, 0.27484915, 1)
+effect = 4
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"

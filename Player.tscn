@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbbox6v4otw3j"]
+
+[ext_resource type="Script" uid="uid://cgdy0rmla54ap" path="res://player.gd" id="1_xhfnw"]
+[ext_resource type="Texture2D" uid="uid://074qx4byj5dm" path="res://icon.svg" id="2_kpjcp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kne1u"]
+radius = 322.08
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kpjcp"]
+size = Vector2(134, 133)
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_xhfnw")
+
+[node name="PickupArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PickupArea" index="0"]
+shape = SubResource("CircleShape2D_kne1u")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_kpjcp")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+motion_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" index="0"]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_kpjcp")

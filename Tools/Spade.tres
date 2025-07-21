@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Tool" load_steps=2 format=3 uid="uid://dsofmrx3878m1"]
+
+[ext_resource type="Script" uid="uid://bcxdmctbfqe0d" path="res://tool.gd" id="1_s7kt6"]
+
+[resource]
+script = ExtResource("1_s7kt6")
+name = "Spade"
+metadata/_custom_type_script = "uid://bcxdmctbfqe0d"

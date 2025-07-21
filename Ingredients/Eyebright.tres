@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://ty0pd4c5suc0"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_uxsc8"]
+
+[resource]
+script = ExtResource("1_uxsc8")
+name = "Eyebright"
+color = Color(1, 1, 1, 1)
+effect = 9
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"

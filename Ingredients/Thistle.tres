@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://c6xkr8cy0xcxp"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_3tywn"]
+
+[resource]
+script = ExtResource("1_3tywn")
+name = "Thistle"
+color = Color(0.51874, 0.22940002, 0.74, 1)
+effect = 6
+desc = "whatever"
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"

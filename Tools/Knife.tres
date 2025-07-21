@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Tool" load_steps=2 format=3 uid="uid://bxhyhyjod5338"]
+
+[ext_resource type="Script" uid="uid://bcxdmctbfqe0d" path="res://tool.gd" id="1_chkxw"]
+
+[resource]
+script = ExtResource("1_chkxw")
+name = "Knife"
+metadata/_custom_type_script = "uid://bcxdmctbfqe0d"

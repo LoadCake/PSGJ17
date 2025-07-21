@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://rk7q58xr2cdj"]
+
+[ext_resource type="Script" uid="uid://dspcg7ecs5snu" path="res://stage.gd" id="1_gsj67"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_d3qrh"]
+[ext_resource type="PackedScene" uid="uid://2cjslrm2q04r" path="res://IngredientInstance.tscn" id="3_r7lnk"]
+[ext_resource type="Resource" uid="uid://scs0c276dulu" path="res://Ingredients/Clay.tres" id="4_2p67s"]
+
+[node name="Stage" type="Node2D" node_paths=PackedStringArray("holdables")]
+script = ExtResource("1_gsj67")
+holdables = [NodePath("IngredientInstance")]
+
+[node name="Background" type="Sprite2D" parent="."]
+modulate = Color(0.69803923, 0.78039217, 0.29803923, 1)
+position = Vector2(384, 216)
+scale = Vector2(14.520001, 8.800002)
+texture = ExtResource("2_d3qrh")
+
+[node name="Middle" type="Marker2D" parent="."]
+position = Vector2(384, 216)
+
+[node name="IngredientInstance" parent="." instance=ExtResource("3_r7lnk")]
+position = Vector2(80, 125)
+ingredient = ExtResource("4_2p67s")
+
+[node name="IngredientInstance2" parent="." instance=ExtResource("3_r7lnk")]
+position = Vector2(164, 292)
+
+[node name="IngredientInstance3" parent="." instance=ExtResource("3_r7lnk")]
+position = Vector2(297, 94)
+
+[node name="IngredientInstance4" parent="." instance=ExtResource("3_r7lnk")]
+position = Vector2(379, 332)
+
+[node name="IngredientInstance5" parent="." instance=ExtResource("3_r7lnk")]
+position = Vector2(534, 125)
+
+[node name="IngredientInstance6" parent="." instance=ExtResource("3_r7lnk")]
+position = Vector2(649, 276)

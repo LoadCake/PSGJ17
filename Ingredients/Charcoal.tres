@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://c6qkntb0ytn5g"]
+
+[ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_esbji"]
+
+[resource]
+script = ExtResource("1_esbji")
+name = "Charcoal"
+metadata/_custom_type_script = "uid://cgmpasrmwaytg"
