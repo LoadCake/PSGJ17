@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://cqlu7v2gvc8hp"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://cqlu7v2gvc8hp"]
 
 [ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_ebvd0"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_se6vf"]
 
 [resource]
 script = ExtResource("1_ebvd0")
 name = "Marigold"
 color = Color(0.9, 0.55289996, 0.099, 1)
 effect = 8
+sprite_tex = ExtResource("2_se6vf")
 metadata/_custom_type_script = "uid://cgmpasrmwaytg"

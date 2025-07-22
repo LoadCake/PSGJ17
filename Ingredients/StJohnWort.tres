@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://db2hp0md4w2gi"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://db2hp0md4w2gi"]
 
 [ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_y06d7"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_hm7s4"]
 
 [resource]
 script = ExtResource("1_y06d7")
 name = "St. John Wort"
 color = Color(0.93999994, 0.72145, 0.06579998, 1)
 effect = 5
+sprite_tex = ExtResource("2_hm7s4")
 metadata/_custom_type_script = "uid://cgmpasrmwaytg"

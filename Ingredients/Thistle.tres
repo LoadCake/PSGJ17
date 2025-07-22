@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://c6xkr8cy0xcxp"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://c6xkr8cy0xcxp"]
 
 [ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_3tywn"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_0jr1l"]
 
 [resource]
 script = ExtResource("1_3tywn")
@@ -8,4 +9,5 @@ name = "Thistle"
 color = Color(0.51874, 0.22940002, 0.74, 1)
 effect = 6
 desc = "whatever"
+sprite_tex = ExtResource("2_0jr1l")
 metadata/_custom_type_script = "uid://cgmpasrmwaytg"

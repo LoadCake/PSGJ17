@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://dlnd3mo7jt3vd"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://dlnd3mo7jt3vd"]
 
 [ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_re18b"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_rwh27"]
 
 [resource]
 script = ExtResource("1_re18b")
 name = "Cornflower"
 color = Color(0.01999998, 0.55900013, 1, 1)
 effect = 10
+sprite_tex = ExtResource("2_rwh27")
 metadata/_custom_type_script = "uid://cgmpasrmwaytg"

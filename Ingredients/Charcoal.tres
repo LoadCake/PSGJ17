@@ -1,8 +1,10 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://c6qkntb0ytn5g"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://c6qkntb0ytn5g"]
 
 [ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_esbji"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_r5xyd"]
 
 [resource]
 script = ExtResource("1_esbji")
 name = "Charcoal"
+sprite_tex = ExtResource("2_r5xyd")
 metadata/_custom_type_script = "uid://cgmpasrmwaytg"

@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://50ij147qw06v"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://50ij147qw06v"]
 
 [ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_qxq84"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_ibuwe"]
 
 [resource]
 script = ExtResource("1_qxq84")
 name = "Saltpeter"
 color = Color(0.33841312, 0.3211655, 0.27484915, 1)
 effect = 4
+sprite_tex = ExtResource("2_ibuwe")
 metadata/_custom_type_script = "uid://cgmpasrmwaytg"

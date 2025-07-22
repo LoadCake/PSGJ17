@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://bqhrt3akcf1ax"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://bqhrt3akcf1ax"]
 
 [ext_resource type="Script" uid="uid://cgmpasrmwaytg" path="res://ingredient.gd" id="1_dla7c"]
+[ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_lnv0r"]
 
 [resource]
 script = ExtResource("1_dla7c")
 name = "Nettle"
 color = Color(0.06569998, 0.73, 0.07677162, 1)
 effect = 3
+sprite_tex = ExtResource("2_lnv0r")
 metadata/_custom_type_script = "uid://cgmpasrmwaytg"
