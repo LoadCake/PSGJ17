@@ -1,9 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://rk7q58xr2cdj"]
+[gd_scene load_steps=11 format=3 uid="uid://rk7q58xr2cdj"]
 
 [ext_resource type="Script" uid="uid://dspcg7ecs5snu" path="res://stage.gd" id="1_gsj67"]
 [ext_resource type="Texture2D" uid="uid://brvjphaqojoqo" path="res://pixel.tres" id="2_d3qrh"]
 [ext_resource type="PackedScene" uid="uid://2cjslrm2q04r" path="res://IngredientInstance.tscn" id="3_r7lnk"]
 [ext_resource type="Resource" uid="uid://scs0c276dulu" path="res://Ingredients/Clay.tres" id="4_2p67s"]
+[ext_resource type="PackedScene" uid="uid://dbbox6v4otw3j" path="res://Player.tscn" id="5_d3qrh"]
+[ext_resource type="Resource" uid="uid://bqhrt3akcf1ax" path="res://Ingredients/Nettle.tres" id="5_mk6be"]
+[ext_resource type="Resource" uid="uid://bycstf6cfaam1" path="res://Ingredients/Beetroot.tres" id="6_uymwg"]
+[ext_resource type="Resource" uid="uid://cqlu7v2gvc8hp" path="res://Ingredients/Marigold.tres" id="7_sbwno"]
+[ext_resource type="Resource" uid="uid://ty0pd4c5suc0" path="res://Ingredients/Eyebright.tres" id="8_ktjup"]
+[ext_resource type="Resource" uid="uid://dlnd3mo7jt3vd" path="res://Ingredients/Cornflower.tres" id="9_1wg0b"]
 
 [node name="Stage" type="Node2D" node_paths=PackedStringArray("holdables")]
 script = ExtResource("1_gsj67")
@@ -24,15 +30,23 @@ ingredient = ExtResource("4_2p67s")
 
 [node name="IngredientInstance2" parent="." instance=ExtResource("3_r7lnk")]
 position = Vector2(164, 292)
+ingredient = ExtResource("5_mk6be")
 
 [node name="IngredientInstance3" parent="." instance=ExtResource("3_r7lnk")]
 position = Vector2(297, 94)
+ingredient = ExtResource("6_uymwg")
 
 [node name="IngredientInstance4" parent="." instance=ExtResource("3_r7lnk")]
 position = Vector2(379, 332)
+ingredient = ExtResource("7_sbwno")
 
 [node name="IngredientInstance5" parent="." instance=ExtResource("3_r7lnk")]
 position = Vector2(534, 125)
+ingredient = ExtResource("8_ktjup")
 
 [node name="IngredientInstance6" parent="." instance=ExtResource("3_r7lnk")]
 position = Vector2(649, 276)
+ingredient = ExtResource("9_1wg0b")
+
+[node name="Player" parent="." instance=ExtResource("5_d3qrh")]
+position = Vector2(275, 347)

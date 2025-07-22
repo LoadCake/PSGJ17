@@ -21,10 +21,3 @@ enum Effect{
 	Demulcing,
 	Prebiotic,
 }
-
-func _init(_name: String, _color: Color, _effect: Effect, _desc: String, _sprite_tex: Texture2D) -> void:
-	name = _name
-	color = _color
-	effect = _effect
-	desc = _desc
-	sprite_tex = _sprite_tex
